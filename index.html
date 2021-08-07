@@ -6,7 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Music Player</title>
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background-image: url(/images/image.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .navbar {
+            margin: auto;
+            width: 88%;
+            padding: 1vh 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            padding: 1vh 0;
+            width: 7vw;
+            cursor: pointer;
+            border-radius: 73px;
+            border: 2px solid rgb(255 167 167);
+
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0 1vw;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #686363;
+            cursor: pointer;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #686363;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        .content {
+            width: 100%;
+            position: absolute;
+            top: 30%;
+        }
+
+        .left-col {
+            margin: 6%;
+        }
+
+        .left-col h1 {
+            font-size: 90px;
+            color: #fff;
+            line-height: 90px;
+            float: left;
+        }
+
+        .right-col {
+            margin: 6%;
+            float: right;
+            margin-top: 10vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .right-col p {
+            font-size: 18px;
+            color: #5f5f5f;
+            font-weight: 400;
+            margin-right: 15px;
+        }
+
+        #icon {
+            width: 80px;
+            cursor: pointer;
+
+        }
+    </style>
 
 </head>
 
