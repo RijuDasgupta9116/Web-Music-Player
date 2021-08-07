@@ -17,7 +17,7 @@
         .container {
             height: 100vh;
             width: 100%;
-            background-image: url(/images/image.png);
+            background-image: url(image.png);
             background-size: cover;
             background-position: center;
         }
@@ -110,7 +110,7 @@
                 <li><a href="#">PRODUCTS</a></li>
                 <li><a href="#">CONNECT</a></li>
             </ul>
-            <img src="/images/logo2.png" alt="" class="logo">
+            <img src="logo2.png" alt="" class="logo">
         </div>
         <div class="content">
             <div class="left-col">
@@ -118,14 +118,14 @@
             </div>
             <div class="right-col">
                 <p>Click Here To Listen</p>
-                <img src="/images/play.png" alt="" id="icon">
+                <img src="play.png" alt="" id="icon">
             </div>
 
         </div>
     </div>
 
     <audio id="mySong">
-        <source src="/images/Dekho Aloy Alo Akash (Asadoma Sadgamaya) by Arijit(MP3_128K).mp3" type="audio/mp3">
+        <source src="Dekho Aloy Alo Akash (Asadoma Sadgamaya) by Arijit(MP3_128K).mp3" type="audio/mp3">
     </audio>
 
     <script>
@@ -136,12 +136,12 @@
         icon.onclick = function () {
             if (mySong.paused) {
                 mySong.play();
-                icon.src = "/images/pause.png";
+                icon.src = "pause.png";
 
             }
             else {
                 mySong.pause();
-                icon.src = "/images/play.png";
+                icon.src = "play.png";
 
             }
         }
